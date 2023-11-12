@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    }  
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    height: 500px;
+    background-image: url("../imgs/kilimanjaro-studioz-04CYx6p2rJ4-unsplash.jpg");
+    background-size: cover;
+    border-bottom: 2px outset;
+}
+.header{
+    padding: 4rem;
+}
+.header h1{
+    font-size: 60px;
+    color: #272829;
+}
+.header p{
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+}
+
+h2{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 25px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+.container table, td{
+    border-bottom: 1px solid rosybrown;
+    border-collapse: collapse;
+}
+.container img{
+    width: 500px;
+    height: 500px;
+    border-radius: 5%;
+}
+footer{
+    border: 1px solid;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #B0578D;
+    color: white;
+    font-size: 20px;
+}
